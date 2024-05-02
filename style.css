@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding: 0;
+    max-width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted red;   
+    padding : 0 200px;
+    
+    
+}
+.header{
+  display: flex;  
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .container .left{
+    
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    justify-content: flex-start;
+}
+.hero .main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf9;
+}
+.hero .secondary,.links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header .logo{
+    font-size: 24px;
+    color: #f9f7f8;
+    border-radius: 2px;
+    box-shadow: none;
+    
+}
+button{
+    background-color: #3882f6;
+    width: fit-content;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero,.footer{
+    background-color: #1F2937;
+}
+
+.information .header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+}
+.card img{
+    width: 100%;
+}
+.quote{
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.call .container{
+    background-color: #3882f6;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: aliceblue;
+    flex: 1;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f7f8;
+}
